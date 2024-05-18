@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="10dp"
+  >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="#EFDD8F"
+    >
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="সতেজ"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        />
+</LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সাশ্রয়ী মূল্যে সংগ্রহ করুন আপনার পছন্দের
+সরাসরি কৃষক থেকে সংগৃহীত ঘাস খাওয়া গরুর মাংস এবং খাঁটি দুধ।
+    শতভাগ দেশীয় পণ্য সংগ্রহ করুন, সুস্বাস্থ্য নিশ্চিত করুন।"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        />
+
+
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="50dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:backgroundTint="#FFFFFF"
+
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="গরুর মাংস "
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/stockG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="স্টক:250kg "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/stockGP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="দাম:250TK "
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/buyGousto"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="Buy Now"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp"
+                >
+                <ImageView
+                    android:layout_marginTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_2"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="গরুর মাংস "
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/stockM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="স্টক:250kg "
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/stockMP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="দাম:250TK "
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/buyMilk"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Buy Now"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+<TextView
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Watch Video"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    />
+    <VideoView
+        android:layout_marginTop="20dp"
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+
+        />
+
+
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

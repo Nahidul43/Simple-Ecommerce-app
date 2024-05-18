@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffffff"
+
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="10dp"
+
+
+        >
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Number"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/edMobile"
+            android:layout_marginTop="25dp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Number"
+            android:inputType="number"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+
+            />
+
+        <TextView
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            />
+
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:layout_marginTop="100dp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Password"
+
+            android:textColorHint="#000000"
+            android:inputType="text"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="100dp"
+
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/button"
+
+            android:gravity="center"
+            android:text="Loging"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:id="@+id/singnUp"
+            android:layout_marginTop="230dp"
+
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="signUp"
+            android:textSize="20sp"
+
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/button"
+            android:textStyle="bold"
+
+
+
+            />
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
